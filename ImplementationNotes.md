@@ -6,6 +6,10 @@
 
 Hitting (RESET) after allocating food points de-allocates them but does not reset money to week-start value. Need to implement storage of the money value at the start of each week to allow for mid-allocation reset, and commit change on (Complete Week). 
 
+### Putting negative numbers into (Pay Off Debt) increases debt and money
+
+Unsure if bug or just poorly-afforded feature. Maybe we should make that bucket two-way?
+
 ## Features to Add
 
 ### Implement NL health qualifiers (low)
