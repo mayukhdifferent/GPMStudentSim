@@ -2,15 +2,23 @@
 
 ## Bug Fixes
 
-### Reset button does not restore money (high)
+### Putting negative numbers into (Pay Off Debt) increases debt and money (low)
 
-Hitting (RESET) after allocating food points de-allocates them but does not reset money to week-start value. Need to implement storage of the money value at the start of each week to allow for mid-allocation reset, and commit change on (Complete Week). 
-
-### Putting negative numbers into (Pay Off Debt) increases debt and money
-
-Unsure if bug or just poorly-afforded feature. Maybe we should make that bucket two-way?
+Unsure if bug or just poorly-afforded feature. Maybe we should make that bucket two-way? Also breaks sometimes.
 
 ## Features to Add
+
+### Implement failure conditions (high)
+
+When health hits 0, or performance hits F, lose.
+
+- "You have died of dysentery!"
+- "You have failed; MJ is very disappointed in you."
+- "You have graduated with %prospects% prospects! You'll find a way to pay off that %debt% debt!"
+
+### Implement performance effects on prospects (low)
+
+Should prospects be affected by low performance / should prospects be able to go down?
 
 ### Implement NL health qualifiers (low)
 
@@ -18,9 +26,10 @@ Implement word-based health (like with prospects)
 
 ### Recurring/Singular  Events (medium)
 
-One-time or recurring events (not randomly allocated as previous idea), such as rent payments or project due dates.
+One-time or recurring events (not randomly allocated as previous idea), such as rent payments or project due dates. Implemented as functions of the Week counter, modifiers on multipliers
 
-- Implemented as functions of the Week counter, modifiers on multipliers
+- Rent -- every four weeks additional expenses
+- Exams/projects -- every ~6 weeks more classwork is required
 
 ### Energy (high)
 
