@@ -24,13 +24,6 @@ Should prospects be affected by low performance / should prospects be able to go
 
 Implement word-based health (like with prospects)
 
-### Recurring/Singular  Events (medium)
-
-One-time or recurring events (not randomly allocated as previous idea), such as rent payments or project due dates. Implemented as functions of the Week counter, modifiers on multipliers
-
-- Rent -- every four weeks additional expenses
-- Exams/projects -- every ~6 weeks more classwork is required
-
 ### Energy (high)
 
 Classwork, Exercise, Work should consume energy points as well as time. Maybe 8?
