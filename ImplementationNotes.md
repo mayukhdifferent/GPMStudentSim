@@ -8,29 +8,17 @@ Unsure if bug or just poorly-afforded feature. Maybe we should make that bucket 
 
 ## Features to Add
 
-### Implement failure conditions (high)
+### Implement random/recurring events (medium)
 
-When health hits 0, or performance hits F, lose.
-
-- "You have died of dysentery!"
-- "You have failed; MJ is very disappointed in you."
-- "You have graduated with %prospects% prospects! You'll find a way to pay off that %debt% debt!"
+Using RND of modulo, add occasional positive and negative events. 
 
 ### Implement performance effects on prospects (low)
 
 Should prospects be affected by low performance / should prospects be able to go down?
 
-### Implement NL health qualifiers (low)
-
-Implement word-based health (like with prospects)
-
 ### Energy (high)
 
 Classwork, Exercise, Work should consume energy points as well as time. Maybe 8?
-
-### Rent (medium)
-
-Every four weeks, rent should be due, affecting money -- implement as recurring event
 
 ## Design Fixes
 
@@ -38,14 +26,18 @@ Every four weeks, rent should be due, affecting money -- implement as recurring 
 
 Drop in performance is too severe week-to-week currently, drop in health feels about right. 
 
-### Time
+### Time (low)
 
 Time points modified down to 18 -- watch this value in future implementation fixes. 
 
 - 32 possible total allocated points each week, 18 is more than half but not enough to max out 3/4 tasks
 - Forces greater choice for week-to-week prioritization
 
-### Money (high)
+### Money (low)
 
-Too much initial money -- not enough motivation to Work. Half or less current starting value.
+Money modified down to $5000 -- track this value in testing
+
+### Weeks (low)
+
+Weeks at 50 to graduate -- is this too many? Track in testing. 
 
