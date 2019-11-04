@@ -2,9 +2,7 @@
 
 ## Bug Fixes
 
-### Putting negative numbers into (Pay Off Debt) increases debt and money (low)
 
-Unsure if bug or just poorly-afforded feature. Maybe we should make that bucket two-way? Also breaks sometimes.
 
 ## Features to Add
 
@@ -12,13 +10,11 @@ Unsure if bug or just poorly-afforded feature. Maybe we should make that bucket 
 
 Using RND of modulo, add occasional positive and negative events. 
 
+Care packages, networking events
+
 ### Implement performance effects on prospects (low)
 
 Should prospects be affected by low performance / should prospects be able to go down?
-
-### Energy (high)
-
-Classwork, Exercise, Work should consume energy points as well as time. Maybe 8?
 
 ## Design Fixes
 
@@ -39,5 +35,5 @@ Money modified down to $5000 -- track this value in testing
 
 ### Weeks (low)
 
-Weeks at 50 to graduate -- is this too many? Track in testing. 
+Weeks at 50 to graduate -- is this too many? Track in testing.
 
