@@ -2,15 +2,7 @@
 
 ## Bug Fixes
 
-
-
 ## Features to Add
-
-### Implement random/recurring events (medium)
-
-Using RND of modulo, add occasional positive and negative events. 
-
-Care packages, networking events
 
 ### Implement performance effects on prospects (low)
 
