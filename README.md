@@ -15,3 +15,5 @@ academic performance to keep up with the program and stay healthy!
 
 The entirety of the game is available in the GPMSimFinal.xlsm file. 
 Microsoft Excel is required to run it, and macros must be enabled. 
+
+The systems diagram is also available in the docs, which can be run on https://ncase.me/loopy/ by Nicky Case. 
