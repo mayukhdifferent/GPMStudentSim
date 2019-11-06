@@ -8,6 +8,10 @@
 
 Should prospects be affected by low performance / should prospects be able to go down?
 
+### More varied events (medium)
+
+### Clearer tooltip implementation (medium)
+
 ## Design Fixes
 
 ### Too Harsh (high)
