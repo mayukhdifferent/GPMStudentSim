@@ -1,4 +1,4 @@
-# G200-SG
+# GPM Student Sim
 Game 200 Spreadsheet Game: GPM Student Simulator
 
 ## Contributors
